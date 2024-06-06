@@ -1,0 +1,104 @@
+header{
+background-color: cornsilk;
+display: flex;
+justify-content: space-between;
+text-align: end;
+margin-bottom: 10px;
+padding: 10px 70px;
+}
+
+
+h1{
+    color: firebrick;
+    text-decoration: underline;
+    background-color: rgb(241, 248, 176);
+
+}
+ 
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+
+}
+
+.practicando{
+    color: firebrick;
+    text-align: center;
+    font-size: 25px;
+}
+
+p{
+    text-decoration: dashed;
+    text-decoration: underline;
+    letter-spacing: 10;
+}
+
+.listas{
+    text-align: center;
+}
+
+
+.card{
+ max-width: 400px;
+ background-color: whitesmoke;
+ border: 2px solid;
+ padding: 5px;
+ text-align: center;
+ border-radius: 5px;
+ margin:10px auto;
+ 
+}
+
+.card h5{
+    text-align: center;
+    text-decoration: underline;
+
+}
+
+.card img{
+    width: 300px;
+}
+
+.contenedor{
+    background-color: white;
+    padding: 10px;
+}
+
+.padre{
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    background-color: burlywood;
+    max-width: 700px;
+   margin: auto;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 4; }
+    .div1 img{width: 100%;}
+    .div2 { grid-area: 2 / 1 / 3 / 2; }
+    .div2 img{width: 100%;}
+    .div3 { grid-area: 2 / 2 / 3 / 3; }
+    .div3 img {width: 100%;}
+    .div4 { grid-area: 2 / 3 / 3 / 4; }
+    .div4 img {width: 100%;}
+
+
+
+    .links{
+        color: rgb(255, 138, 5);
+    }
+
+    .links:hover{
+        color: blue;
+        font-size: 20px;
+    }
